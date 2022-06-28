@@ -1,0 +1,1 @@
+These are the images necessary for the HTML pages in the repository. Please download the images folder along with the HTML files.
