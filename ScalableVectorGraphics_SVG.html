@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML SVGs</title>
+        <style>
+            div{
+                padding-left:250px;
+            }
+            #lm45{
+                padding-top:120px;
+            }
+            .tx49{
+                padding-left:80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="lm45">
+            <svg>
+            <rect height="80" width="180" stroke="black" stroke-width="1" fill="#5DADE2"/>  <!-- Rectangle -->
+            </svg>
+            <svg class="tx49">
+            <circle cx ="50" cy="50" r="40" stroke="black" stroke-width="1" fill="#F39C12"/>  <!-- Circle -->
+            </svg>
+            <svg>
+            <ellipse cx="100" cy="50" rx="80" ry="40" stroke="black" stroke-width="1" fill="#D7BDE2"/>
+            </svg>
+        </div>
+        
+        <div>
+            <svg>
+            <defs>
+            <linearGradient id="fs40" x1="0%" x2="0%" y1="100%" y2="30%">
+                <stop offset="50%" stop-color="#E6B0AA" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#A9DFBF" stop-opacity="0.9"/>
+            </linearGradient>
+            </defs>
+            <rect height="80" width="180" stroke="black" stroke-width="1" fill="url(#fs40)" />  <!-- Rectangle -->
+            </svg>
+            
+            <svg class="tx49">
+            <defs>
+            <linearGradient id="fs20" x1="100%" x2="40%" y1="0%" y2="0%">
+            <stop offset="40%" stop-color="#76D7C4" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#D2B4DE" stop-opacity="0.9"/>
+            </linearGradient>
+            </defs>
+            <circle cx ="50" cy="50" r="40" stroke="black" stroke-width="1" fill="url(#fs20)"/>  <!-- Circle -->
+            </svg>
+            
+            <svg>
+            <defs>
+            <linearGradient id="fs50" x1="40%" x2="10%" y1="100%" y2="80%">
+                <stop offset="30%" stop-color="#EB984E" stop-opacity="0.9" />
+                <stop offset="100%" stop-color="#F4D03F" stop-opacity="0.9"/>
+            </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="50" rx="80" ry="40" stroke="black" stroke-width="1" fill="url(#fs50)"/>
+            </svg>
+        </div>
+    </body>
+</html>

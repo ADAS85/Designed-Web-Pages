@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Flexbox</title>
+        <style>
+            body{
+                background-image:url("Images/Background  III.jpg");
+                background-origin:content-box;
+                background-repeat:no-repeat;
+                background-position:50% 57%;
+                background-size:550px 550px;
+                padding:0px;
+                margin:0px;
+            }
+            #bd{
+                border:5px double black;
+                padding:210px 60px 210px 95px;
+                margin:70px 100px 60px 100px;
+            }
+            #main{
+                height:65px;
+                width:1000px;
+                border:1px solid black;
+                color:whitesmoke;
+                text-align:center;
+                font-family:corbel;
+                font-size:17px;
+                display:flex;
+                text-shadow:3px 3px 3px black;
+            }
+            #main div{
+                flex-basis:200px;
+                flex-shrink:2;
+                flex-grow:0;
+            }
+            #main .six{
+                flex-basis:300px;
+            }
+            .one{background-color:darksalmon;}
+            .two{background-color:darkkhaki;}
+            .three{background-color:darkseagreen;}
+            .four{background-color:darksalmon;}
+            .five{background-color:darkkhaki;}
+            .six{background-color:darkseagreen;}
+        </style>
+    </head>
+    <body>
+        <div id="bd">
+        <div id="main">
+        <div class="one"><h4>Life is a race.</h4></div>
+        <div class="two"><h4>Life is a journey.</h4></div>
+        <div class="three"><h4>Life is a lesson.</h4></div>
+        <div class="four"><h4>Life is an intuition.</h4></div>
+        <div class="five"><h4>Life is an ocean.</h4></div>
+        <div class="six"><h4>Above all, Life is a blessing.</h4></div>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+        <style>
+            form{
+                margin:30px 280px 0px;
+                padding-top:15px;
+                background-color:#884EA0;
+                border:4px solid #2C3E50;
+            }
+            input{
+                padding:5px;
+                font-family:corbel;
+                font-size:15px;
+            }
+            label{
+                padding:30px 15px 30px;
+                font-family:corbel;
+                font-size:15px;
+                color:whitesmoke;
+            }
+            #first{
+                width:90px;
+            }
+            #second{
+                display:block;
+                padding-bottom:10px;
+            }
+            select{
+                padding:8px;
+                font-family:corbel;
+                font-size:15px;
+            }
+            legend{
+                font-size:20px;
+                font-family:corbel;
+                margin:0px 10px 30px;
+                padding:0px 12px;
+                color:whitesmoke;
+            }
+            button{
+                font-family:corbel;
+                font-size:15px;
+                padding:6px;
+                margin-left:20px;
+                color:whitesmoke;
+                background-color:#1A5276;
+                border-radius:10px;
+            }
+            input[type="radio"]{
+                margin:0px 0px 0px 14px;
+            }
+            #four{
+                margin-right:25px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Student Entry Form</legend>
+            <label>First Name : </label>
+            <input type="text" placeholder="Enter your first name" required><br><br><br>
+            <label>Last Name : </label>
+            <input type="text" placeholder="Enter your last name" required><br><br><br>
+            <label>Year : </label>
+            <input id="first" type="number" min="1" max="4" placeholder="Enter year" required><br><br><br>
+            <label>Department :</label>
+            <select>
+                <option selected>Choose department</option>
+                <option>EIE</option>
+                <option>ECE</option>
+                <option>CSE</option>
+                <option>IT</option>
+                <option>CE</option>
+                <option>EE</option>
+                <option>ME</option>
+                <option>BSHU</option>
+            </select><br><br><br>
+            <label>Roll Number :</label>
+            <input type="number" placeholder="Enter Roll No." required><br><br>
+            <label id="second">Are you interested in the industrial visit?</label>
+            <input  type="radio" value="Yes" required>
+            <label id="four">Yes</label>
+            <input type="radio" value="No" required>
+            <label>No</label><br><br><br>
+            <label>Upload Image :</label>
+            <input type="file" accept="image/*"><br><br>
+            <button type="submit">Submit</button><br>
+            </fieldset>
+        </form>
+    </body>
+</html>

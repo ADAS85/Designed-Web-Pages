@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Navigation Bar</title>
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            li,a{
+                display:inline-block;
+                padding:0px 20px 0px;
+                text-align:center;
+                font-family:corbel;
+                color:whitesmoke;
+                font-size:22px;
+                font-weight:bold;
+                text-decoration:none;
+            }
+            ul{
+                text-align:center;
+                margin-right:35px;
+            }
+            div{
+                background-color:#229954;
+                padding:20px;
+            }
+            #mc78{
+                background-image:url("Images/Background  II.jpg");
+                background-position:center;
+                padding:220px 300px;
+            }
+            h1{
+                text-align:center;
+                font-family:cambria;
+                font-size:55px;
+                color:whitesmoke;
+                animation-name:dragon;
+                animation-duration:2s;
+                animation-iteration-count:infinite;
+                animation-direction:alternate;
+                animation-timing-function:ease-in-out;
+            }
+            @keyframes dragon{
+                0%{
+                   border:2px solid whitesmoke;
+                   border-radius:20px;
+                   padding:3px;
+                }
+                100%{
+                   border:5px solid whitesmoke;
+                   border-radius:40px;
+                   color:whitesmoke;
+                   padding:6px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li><a href="#Dashboard">Dashboard</a></li>
+                <li><a href="#SignUp">Sign Up</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#Career">Career</a></li>
+                <li><a href="#Support">Support</a></li>
+            </ul>
+        </div>
+        <div id="mc78">
+            <h1>Welcome To Dragon Canyon!</h1>
+        </div>
+    </body>
+</html>
