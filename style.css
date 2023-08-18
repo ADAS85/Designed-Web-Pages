@@ -1,0 +1,12 @@
+img {
+  display: inline-block;
+  -webkit-mask-image: url(Apple.png);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center center;
+  margin: 0px 102px 60px 0px;
+}
+
+div {
+  margin-top: 70px;
+}
